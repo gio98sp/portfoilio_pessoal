@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Portfólio pessoal</title>
+</head>
+<body>
+  <h1 class="titulo">Portfólio pessoal</h1>
+  <div class="container">
+    <header>
+      <ul class="menu">
+        <li><a href="index.html" rel="noopener noreferrer">Sobre mim</a></li>
+        <li><a href="formacao.html" rel="noopener noreferrer">Formação</a></li>
+        <li><a href="projetos.html" rel="noopener noreferrer">Projetos</a></li>
+        <li><a href="contato.html" rel="noopener noreferrer">Contato</a></li>
+      </ul>
+    </header>
+    <section class="conteudo">
+      <h2>Contato</h2>
+      <form method="POST">
+        <div class="formulario">
+          <label>
+            <span>Nome</span>
+            <input type="text" name="nome" id="nome">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" id="email">
+          </label>
+          <label class="mensagem">
+            <span>Mensagem</span>
+            <textarea name="mensagem" id="mensagem" rows="5">Olá, tudo bem?</textarea>
+            <input type="button" value="Enviar" class="botao-enviar">
+          </label>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
